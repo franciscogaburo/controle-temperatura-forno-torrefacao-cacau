@@ -5,7 +5,7 @@ Aplicação do sistema supervisório do forno de torrefação, desenvolvida no E
 ## Arquivos
 
 - `TorrefacaoAmendoasCacau.app`: aplicação do Elipse SCADA.
-- `novas imagens com risquinho/feita no canva/`: imagens dos termômetros usadas nas telas (`termometro_01.jpg` a `termometro_15.jpg`). Essa pasta precisa ficar ao lado do `.app` para as imagens aparecerem.
+- `Imagens termômetro`: imagens dos termômetros usadas nas telas (`termometro_01.jpg` a `termometro_15.jpg`). Essa pasta precisa ficar ao lado do `.app` para as imagens aparecerem.
 
 ## Como abrir
 
