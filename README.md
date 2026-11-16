@@ -128,13 +128,13 @@ Como o Modbus usa a mesma porta serial do Monitor Serial, não deixe o Monitor S
 | `tab_reg[3]` | 4 | BT_Enter | SCADA → Arduino | 1 = iniciar com os parâmetros enviados |
 | `tab_reg[4]` | 5 | Temperatura_Desejada | SCADA → Arduino | Temperatura desejada, em °C (limitada a 0–240) |
 | `tab_reg[5]` | 6 | Case | Arduino → SCADA | Etapa do sistema (ver tabela de etapas) |
-| `tab_reg[6]` | 7 | — | — | Não utilizado (antigo Status_Tempo_Finalizado) |
-| `tab_reg[7]` | 8 | — | — | Reservado |
+| `tab_reg[6]` | 7 | — | — | Não utilizado |
+| `tab_reg[7]` | 8 | — | — | Não utilizado |
 | `tab_reg[8]` | 9 | SetPoint | Arduino → SCADA | Temperatura usada no controle, em °C |
 | `tab_reg[9]` | 10 | Tempo_Desejado_Min | SCADA ↔ Arduino | Duração configurada, em minutos |
 | `tab_reg[10]` | 11 | Tempo_Restante | Arduino → SCADA | Tempo restante, em segundos |
 | `tab_reg[11]` | 12 | Bloquear_Controles | Arduino → SCADA | 0 = controles do SCADA liberados; 1 = bloqueados |
-| `tab_reg[12]` | 13 | — | — | Reservado |
+| `tab_reg[12]` | 13 | — | — | Não utilizado |
 
 ## Segurança
 
